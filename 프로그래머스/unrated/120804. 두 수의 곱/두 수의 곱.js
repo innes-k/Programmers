@@ -1,4 +1,6 @@
 function solution(num1, num2) {
     var answer = num1 * num2;
-    return answer;
+      if (0 <= answer <= 10000) {      
+       return answer; 
+    } else { false };
 }
