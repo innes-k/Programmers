@@ -5,7 +5,7 @@ function solution(x) {
     // 4. t/f return
     
     const x_arr = String(x).split('');
-    // console.log(n1);
+    // console.log(x_arr);
     
     for (let i = 0; i < x_arr.length; i++) {
         x_arr[i] = Number(x_arr[i]);
